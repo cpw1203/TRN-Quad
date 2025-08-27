@@ -1,8 +1,22 @@
-\documentclass[12pt, letterpaper]{article}
-\title{My first LaTeX document}
-\author{Hubert Farnsworth\thanks{Funded by the Overleaf team.}}
-\date{August 2022}
+\documentclass[12pt, letter]{article}
+\author{Christopher Waschenko, Yohan Gamboa}
+\title{Senior Design Project}
+\date{August 2025}
 \begin{document}
+
 \maketitle
-We have now added a title, author and date to our first \LaTeX{} document!
+\newpage
+\tableofcontents
+\newpage
+
+\section{Project Overview}
+
+The Goal of this project is to design a Quadcopter search and report extension module (SREM) that will be an add on to a generic FPV quadcopter drone. The \textbf{SREM} will handle the guidance navigation and control of the quadcopter, with the capability of navigation in extreme remote environments using mainly dead reckoning to perceive its state
+
+\subsection{Requirements}
+\begin{tabular}{l l}
+SREM-1 & SREM \textbf{SHALL} determine estimate position without the need of GPS \\
+SREM-2 & SREM \textbf{SHALL} detect an possible crash site or camp \\
+\end{tabular}
+
 \end{document}
